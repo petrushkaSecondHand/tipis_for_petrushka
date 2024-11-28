@@ -1,0 +1,107 @@
+C:\Users\Oleg\PycharmProjects\pythonProject3\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2022.1.3\plugins\python\helpers\pydev\pydevconsole.py" --mode=client --port=52867
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\Oleg\\PycharmProjects\\pythonProject3', 'C:/Users/Oleg/PycharmProjects/pythonProject3'])
+PyDev console: starting.
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+runfile('C:/Users/Oleg/PycharmProjects/pythonProject3/dz5.py', wdir='C:/Users/Oleg/PycharmProjects/pythonProject3')
+Train: (3000, 30), Validation: (1000, 30), Test: (1000, 30)
+Правило разбиения в дереве решений (глубина=1):
+|--- study_hours_per_week <= 21.50
+|   |--- value: [159.52]
+|--- study_hours_per_week >  21.50
+|   |--- value: [193.61]
+RMSE на валидационных данных: 43.16
+n_estimators = 10, RMSE = 43.158
+n_estimators = 20, RMSE = 41.790
+n_estimators = 30, RMSE = 41.556
+n_estimators = 40, RMSE = 41.076
+n_estimators = 50, RMSE = 40.957
+n_estimators = 60, RMSE = 40.774
+n_estimators = 70, RMSE = 40.588
+n_estimators = 80, RMSE = 40.503
+n_estimators = 90, RMSE = 40.435
+n_estimators = 100, RMSE = 40.365
+n_estimators = 110, RMSE = 40.348
+n_estimators = 120, RMSE = 40.302
+n_estimators = 130, RMSE = 40.286
+n_estimators = 140, RMSE = 40.263
+n_estimators = 150, RMSE = 40.254
+n_estimators = 160, RMSE = 40.200
+n_estimators = 170, RMSE = 40.187
+n_estimators = 180, RMSE = 40.136
+n_estimators = 190, RMSE = 40.152
+n_estimators = 200, RMSE = 40.138
+Значение n_estimators после которого RMSE перестает улучшаться: 180
+max_depth = 10, Среднее RMSE = 40.138
+max_depth = 15, Среднее RMSE = 40.644
+max_depth = 20, Среднее RMSE = 40.610
+max_depth = 25, Среднее RMSE = 40.688
+Лучшее значение max_depth: 10
+Самый важный признак: study_hours_per_week с важностью 0.254
+[0]	train-rmse:42.84837	eval-rmse:44.49010
+[1]	train-rmse:39.95205	eval-rmse:42.77731
+[2]	train-rmse:37.92850	eval-rmse:41.59321
+[3]	train-rmse:36.53487	eval-rmse:41.15391
+[4]	train-rmse:35.61054	eval-rmse:40.86007
+[5]	train-rmse:34.79998	eval-rmse:40.49255
+[6]	train-rmse:33.88021	eval-rmse:40.46860
+[7]	train-rmse:33.22849	eval-rmse:40.49609
+[8]	train-rmse:32.48296	eval-rmse:40.43132
+[9]	train-rmse:32.10308	eval-rmse:40.47805
+[10]	train-rmse:31.65812	eval-rmse:40.62586
+[11]	train-rmse:31.23490	eval-rmse:40.70039
+[12]	train-rmse:30.85680	eval-rmse:40.81512
+[13]	train-rmse:30.48828	eval-rmse:40.80521
+[14]	train-rmse:29.91850	eval-rmse:40.83417
+[15]	train-rmse:29.70260	eval-rmse:40.86827
+[16]	train-rmse:29.36454	eval-rmse:40.89142
+[17]	train-rmse:29.21986	eval-rmse:40.87885
+[18]	train-rmse:28.96358	eval-rmse:40.91611
+[0]	train-rmse:45.64455	eval-rmse:46.62781
+[1]	train-rmse:44.27062	eval-rmse:45.58790
+[2]	train-rmse:43.08965	eval-rmse:44.76807
+[3]	train-rmse:42.06141	eval-rmse:44.04465
+[4]	train-rmse:41.11438	eval-rmse:43.42399
+[5]	train-rmse:40.29724	eval-rmse:42.91690
+[6]	train-rmse:39.58487	eval-rmse:42.53669
+[7]	train-rmse:38.91196	eval-rmse:42.13577
+[8]	train-rmse:38.31528	eval-rmse:41.74987
+[9]	train-rmse:37.73151	eval-rmse:41.51373
+[10]	train-rmse:37.27128	eval-rmse:41.32501
+[11]	train-rmse:36.80672	eval-rmse:41.05605
+[12]	train-rmse:36.38621	eval-rmse:40.94458
+[13]	train-rmse:36.02254	eval-rmse:40.79039
+[14]	train-rmse:35.69785	eval-rmse:40.74406
+[15]	train-rmse:35.39172	eval-rmse:40.66035
+[16]	train-rmse:35.09194	eval-rmse:40.59473
+[17]	train-rmse:34.77726	eval-rmse:40.50200
+[18]	train-rmse:34.44970	eval-rmse:40.43685
+[19]	train-rmse:34.20022	eval-rmse:40.37713
+[20]	train-rmse:33.90268	eval-rmse:40.34453
+[21]	train-rmse:33.64157	eval-rmse:40.24299
+[22]	train-rmse:33.36722	eval-rmse:40.19011
+[23]	train-rmse:33.15302	eval-rmse:40.13199
+[24]	train-rmse:32.92345	eval-rmse:40.09014
+[25]	train-rmse:32.69993	eval-rmse:40.03455
+[26]	train-rmse:32.45303	eval-rmse:39.99654
+[27]	train-rmse:32.33972	eval-rmse:39.99492
+[28]	train-rmse:32.18019	eval-rmse:39.99035
+[29]	train-rmse:32.03616	eval-rmse:39.97249
+[30]	train-rmse:31.83255	eval-rmse:39.96707
+[31]	train-rmse:31.62110	eval-rmse:39.96892
+[32]	train-rmse:31.44421	eval-rmse:39.96110
+[33]	train-rmse:31.25201	eval-rmse:39.96472
+[34]	train-rmse:31.13836	eval-rmse:39.96949
+[35]	train-rmse:30.97015	eval-rmse:39.95307
+[36]	train-rmse:30.84959	eval-rmse:39.96472
+[37]	train-rmse:30.63638	eval-rmse:39.97462
+[38]	train-rmse:30.52873	eval-rmse:39.98237
+[39]	train-rmse:30.30631	eval-rmse:40.00524
+[40]	train-rmse:30.20098	eval-rmse:40.00776
+[41]	train-rmse:30.04876	eval-rmse:39.98680
+[42]	train-rmse:29.89115	eval-rmse:39.98117
+[43]	train-rmse:29.77322	eval-rmse:40.01918
+[44]	train-rmse:29.62057	eval-rmse:40.04788
+RMSE с eta=0.3: 40.916
+RMSE с eta=0.1: 40.085
+Лучшее значение eta: 0.1
